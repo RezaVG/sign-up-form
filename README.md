@@ -13,7 +13,7 @@ designing and styling form controls of html.
   ![](./images/styles.png)
 
 - **HTML validating**
-  (for input of email and password)
+  (for input of email and password)\
 
   ![](./images/validation.png)
 
