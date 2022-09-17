@@ -130,11 +130,13 @@ table {
   src: url(./fonts/Norse-Bold.otf);
 }
 
+:root {
+  font-size: 12px;
+  font-family: sans-serif;
+}
 body {
   display: flex;
   background-color: #f9fafb;
-  font-family: sans-serif;
-  font-size: 16px;
 }
 
 a {
@@ -183,6 +185,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 p {
@@ -192,4 +195,74 @@ p {
   padding-bottom: 2rem;
   width: 53ch;
   margin-left: 2rem;
+}
+
+.form {
+  background-color: white;
+  padding: 1rem 0 2rem 0;
+  margin-bottom: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;
+}
+fieldset {
+  padding: 1rem 2rem 0 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.row {
+  display: flex;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+  width: 250px;
+}
+
+label {
+  font-size: 0.8rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+input {
+  border: 1px solid #e5e7eb;
+  border-radius: 5px;
+}
+
+input:focus {
+  border: 1px solid blue;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+button {
+  font-size: 1.25rem;
+  padding: 0.75rem 3rem;
+  margin-left: 2rem;
+  width: max-content;
+  border-radius: 10px;
+  background-color: #596d48;
+  color: white;
+}
+
+.log-in {
+  font-size: 1.25rem;
+  margin-top: 2rem;
+}
+.log-in a {
+  text-decoration: none;
+  color: #596d48;
+  font-weight: bold;
 }
