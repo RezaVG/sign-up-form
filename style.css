@@ -132,11 +132,18 @@ table {
 
 body {
   display: flex;
+  background-color: #f9fafb;
+  font-family: sans-serif;
+  font-size: 16px;
 }
 
 a {
   text-decoration: underline;
   color: inherit;
+}
+
+.emphasized {
+  font-style: italic;
 }
 
 .img-left {
@@ -170,4 +177,19 @@ a {
 
 .photo-copyright {
   padding-bottom: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
+  width: 53ch;
+  margin-left: 2rem;
 }
